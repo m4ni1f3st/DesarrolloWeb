@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	/*Selector universal*/
+	margin:0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 1.3em;
+	font-size: 1.0em;
+	background: #0067af url(images/fondo.jpg) top repeat-x;
+}
+
+.container
+{
+	width: 80%; /*Por si la pantalla es muy ancha*/
+	max-height: 1000px; /*Como máximo 1000 px*/
+	background: #FFFFFF;
+	margin: 20px auto;
+	border-radius: 2%;
+}
+
+header
+{
+	width: 100%;
+	float: left;
+}
+
+header h1
+{
+	margin-left: 20px;
+	float:left;
+}
