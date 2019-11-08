@@ -14,6 +14,7 @@ body
 	background: #0067af url(images/fondo.jpg) top repeat-x;
 }
 
+
 .container
 {
 	width: 80%; /*Por si la pantalla es muy ancha*/
@@ -34,3 +35,94 @@ header h1
 	margin-left: 20px;
 	float:left;
 }
+
+header h2
+{
+	float: right;
+	font-size: 1.3em;
+	margin-top:110px;
+	margin-right:50px;
+}
+
+nav
+{
+	width: 100%;
+	clear: both;
+	padding: 10px;
+}
+
+nav ul
+{
+	width: 100%;
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+nav ul li
+{
+	text-align: center;
+	width:33%;
+	float: left;
+}
+
+aside
+{
+	width: 30%;
+	float: right;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+article{
+	width: 	90%;
+	margin-bottom: 50px;
+	border-bottom: dotted 1px #5e5c5c;
+	padding-bottom: 20px;
+	}
+	
+aside article img{
+	width: 250px;	
+}
+
+section{
+	padding: 20px;
+}
+
+section h1{
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+section h2{
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		line-height: 1.3em;
+		font-size: 1.0em;
+		padding: 20px;
+}
+
+section p{
+	line-height: 1.4em;
+}
+
+section iframe
+{
+	float:center;
+	/* margin-bottom: 10em; */
+	margin-left: 10em;
+	padding: 30px;
+}
+
+footer{
+	width: 100%;
+	clear: both;
+	text-align: center;
+padding-bottom: 10px;}
+
+footer p{
+	font-size:0.7em;
+	color: #645f60;
+}
+
+footer a:link, footer a:visited{	color: #645f60;}
+
+footer a:hoover{	text-decoration: none; }
